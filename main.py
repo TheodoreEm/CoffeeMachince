@@ -90,35 +90,3 @@ while is_on:
             if is_transaction_successful(payment, drink["cost"]):
                 make_coffee(choice, drink["ingredients"])
 
-# TODO: 1. FIRST QUESTION
-#
-# first_question=input("Prompt user by asking “What would you like? (espresso/latte/cappuccino):” ").lower()
-#
-#
-# money= quarters_deposit * 0.25 + dimes_deposit * 0.1 + nickles_deposit * 0.05 + pennies_deposit * 0.01
-# water = resources["water"]
-# milk = resources["milk"]
-# coffee = resources["coffee"]
-#
-# print(MENU["espresso"]["ingredients"]["water"])
-#
-# es_water = MENU["espresso"]["ingredients"]["water"]
-# es_coffee = MENU["espresso"]["ingredients"]["coffee"]
-# es_cost = MENU["espresso"]["cost"]
-#
-# latte_water = MENU["latte"]["ingredients"]["water"]
-# latte_coffee = MENU["latte"]["ingredients"]["coffee"]
-# latte_milk = MENU["latte"]["ingredients"]["milk"]
-# latte_cost = MENU["latte"]["cost"]
-#
-# cup_water = MENU["cappuccino"]["ingredients"]["water"]
-# cup_coffee = MENU["cappuccino"]["ingredients"]["coffee"]
-# cup_milk = MENU["cappuccino"]["ingredients"]["milk"]
-# cup_cost = MENU["cappuccino"]["cost"]
-#
-# while first_question!= "off":
-#       if first_question=="report":
-#          print(f"The current resource values: \nWater: {water}ml\nMilk: {milk}ml\nWater: {coffee}g\nMoney: ${money}")
-#       elif first_question=="espresso":
-#           if es_water > water or es_coffee >coffee or es_cost> money:
-#               print("")
